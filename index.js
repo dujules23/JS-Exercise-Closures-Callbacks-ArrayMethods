@@ -128,8 +128,6 @@ function scoreboard(getInningScore, inning) {
       `Final Score: Away ${scoreAway}, Home ${scoreHome}`
     }
 }
-function scoreboard(/* CODE HERE */) {
-  /* CODE HERE */
-}
+
 
 

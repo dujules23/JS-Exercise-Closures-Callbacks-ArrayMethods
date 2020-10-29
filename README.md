@@ -44,6 +44,7 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+<!-- Closure refers to two things: 1. There has to be a function. 2. That function must call variables that are not in the function for it to be consisdered closure. -->
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,8 +66,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+None. The inner function doesn't use variables outside of itself.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+Dan is the name called. The changes are what was rolled.
 c. What is the lexical scope of `newRoll`? 
+This is nested inside of the secondary function.
 
 ### Task 3 - Stretch Goals
 
